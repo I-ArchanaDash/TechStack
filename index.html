@@ -131,23 +131,22 @@
 <div id="Contact">
     <h1>Contact TechStack</h1>
     <p>For any enquiries, Please fill the below form.</p>
-    <form method="post">
-        <fieldset>
-            <input placeholder="Your name"type="text"tabindex="1" required autofocus>
-        </fieldset>
-        <fieldset>
-            <input placeholder="Your Email Address" type="email" tabindex="2" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-          </fieldset>
-          <fieldset>
-            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-          </fieldset>
-    </form>
+    <form target="_blank" action="https://formsubmit.co/iarchanadash@gmail.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
 </div>
 <!--Footer-->
 <footer>
