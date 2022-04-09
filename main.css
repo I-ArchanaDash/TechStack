@@ -1,63 +1,67 @@
 body{
-    background-color: antiquewhite;
-    text-align: center;
+  background-color: #f0dbdb;
+  text-align: center;
 }
 .flex-container{
-    display: flex;
-    background-color:rgb(2, 2, 2);
-    flex-direction: row;
-    justify-content:flex-start;
-    position: fixed;
-    top:0%;
-    width: 100%;
-    padding: 0 10px;
+  display: flex;
+  background-color:rgb(2, 2, 2);
+  flex-direction: row;
+  justify-content:flex-start;
+  position: fixed;
+  top:0%;
+  width: 100%;
+  padding: 0 10px;
 }
 .flex-container a{
-    color: rgb(255, 255, 255);
-    margin: 10px;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 24px;
-    text-decoration: none;
-    box-shadow: 5px 5px 5px grey;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px grey;
 }
 .container{
-    text-align: center;
-    padding: 2px 16px;
+  text-align: center;
+  padding: 2px 16px;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.2s;
-    width: 100%;
-    margin:20px 5px 20px 5px;
-  }
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.2s;
+  width: 100%;
+  margin:20px 5px 20px 5px;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform:rotate(-5deg);
-  }
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform:rotate(-5deg);
+}
 
-  .row{
-    margin: 0 -5px;
-    
-  }
-  footer{
-    left: 10px;  
-    bottom: 5px;  
-    right: 10px;   
-    width: 100%;  
-    background-color: rgb(68, 67, 67);  
-    color:rgb(255, 255, 255);  
-  }
-  .image{
-      border-radius: 10px;
-      display: inline-block;
-      height:250px;
-  }
-  .image:hover{
-      opacity: 0.8;
+.row{
+  margin: 0 -5px;
+  
+}
+footer{
+  left: 10px;  
+  bottom: 5px;  
+  right: 10px;   
+  width: 100%;  
+  background-color: rgb(68, 67, 67);  
+  color:rgb(255, 255, 255);  
+}
+.image{
+    border-radius: 10px;
+    display: inline-block;
+    height:250px;
+}
+.image:hover{
+    opacity: 0.8;
 
-  }
+}
+
+
+
+
 
 
 
