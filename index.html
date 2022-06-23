@@ -1,49 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login App</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStack</title>
+    <link rel="stylesheet" href="main.css">
 </head>
-<style>
-  .container {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
-    flex-direction: column;
-    background-color: black;
-    position: fixed;
-    top:0%;
-    min-width: 100%;
-  }
-  h1{
-      color:#f0dbdb;
-  }
-</style>
-
 <body>
-  <div class="container">
-    <h1>Login using OTP</h1>
-    <div id="sawo-container" style="height: 365px; width: 300px"></div>
-  </div>
-  <script src="https://websdk.sawolabs.com/sawo.min.js"></script>
-  <script>
-    var config = {
-      // should be same as the id of the container 
-      containerID: 'sawo-container',
-      identifierType: 'email',// can be one of 'email' or 'phone_number_sms'
-      apiKey: '8f6c8576-3dfb-4345-88db-88ff5022fc27', // add your api key here
-      // Add a callback here to handle the payload sent by sdk
-      onSuccess: (payload) => {
-        window.location = './home.html'
-      },
-    }
-    var sawo = new Sawo(config)
-    sawo.showForm()
-  </script>
-</body>
+    <div class="fixed-top">
+        <div class="flex-container">
+            <a id="logo"href="#" >T</a>
+            <a href="#">Home</a>
+            <a href="#Practice">Practice</a>
+            <a href="#Contact">Contact</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+             <h1>TechStack</h1>
+             <p>All in One Platform to Master Competitive Programming</p> 
+             <p>&emsp;</p> 
+    </div>
+    <section id="Practice">
+    <div class="row" >
+    <table>
+        <tr>
+            <td>
+                <div class="card">
+                    <a href="https://www.hackerrank.com/dashboard"><img src="images/HackerRank_Icon-1000px.png" class="image"style="width:100%">
+                        <div class="container">
+                            <h4><b>Hackerrank</b></h4>
+                        </div>
+                    </a>
+                    </div>
+            </td>
 
+            <td>
+                <div class="card">
+                    <a href="https://www.hackerearth.com/"><img src="images/HackerEarth_logo.png"class="image"style="width:100%">
+                        <div class="container">
+                            <h4><b>Hackerearth</b></h4>
+                        </div>
+                    </a>
+                    </div>
+            </td>
+            <td>
+                <div class="card">
+                    <a href="https://leetcode.com/"><img src="images/leetcode_icon.jpg"class="image"style="width:100%">
+                        <div class="container">
+                            <h4><b>Leetcode</b></h4>
+                        </div>
+                    </a>
+                    </div>
+            </td>
+            <td>
+                <div class="card">
+                    <a href="https://www.spoj.com/"><img src="images/spoj.jfif"class="image"style="width:100%">
+                        <div class="container">
+                            <h4><b>Spoj</b></h4>
+                        </div>
+                    </a>
+                    </div>
+        </td>
+        <td>
+            <div class="card">
+                    <a href="https://www.codechef.com/"><img src="images/codechef.png"class="image"style="width:100%">
+                        <div class="container">
+                            <h4><b>Codechef</b></h4>
+                        </div>
+                    </a>
+             </div>
+        </td>
+        </tr>
+
+        <tr>
+           <td>
+            <div class="card">
+                <a href="https://www.geeksforgeeks.org/"><img src="images/gfgicon.jpg"class="image"style="width:100%">
+                    <div class="container">
+                        <h4><b>GeeksForGeeks</b></h4>
+                    </div>
+                </a>
+            </div>
+           </td>
+            <td>
+                <div class="card">
+                    <a href="https://codeforces.com/"><img src="images/codeforces.jpg"class="image"style="width:100%;">
+                        <div class="container">
+                            <h4><b>Codeforces</b></h4>
+                        </div>
+                    </a>
+                </div>
+            </td>
+            <td>
+                <div class="card">
+                    <a href="https://exercism.org/"><img src="images/exercism.png"class="image"style="width:100%">
+                        <div class="container">
+                            <h4><b>Exercism</b></h4>
+                        </div>
+                    </a>
+                </div>
+            </td>  
+             
+            <td>
+                <div class="card">
+                    <a href="http://www.programmr.com/"><img src="images/programmr.png"class="image"style="width:100%">
+                        <div class="container">
+                            <h4><b>Programmr</b></h4>
+                        </div>
+                    </a>
+                </div>
+            </td>
+            <td>
+                <div class="card">
+                    <a href="https://www.topcoder.com/"><img src="images/topcoder.jfif"class="image"style="width:100%">
+                        <div class="container">
+                            <h4><b>Topcoder</b></h4>
+                        </div>
+                    </a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+</section>
+<!--contact-->
+<div id="Contact">
+    <h1>Contact TechStack</h1>
+    <p>For any enquiries, Please fill the below form.</p>
+    <form target="_blank" action="https://formsubmit.co/iarchanadash@gmail.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+<!--Footer-->
+<footer>
+    
+        <p>Copyrights &copy;2021 - ALL RIGHTS RESERVED.</p>
+    
+</footer>
+</body>
 </html>
